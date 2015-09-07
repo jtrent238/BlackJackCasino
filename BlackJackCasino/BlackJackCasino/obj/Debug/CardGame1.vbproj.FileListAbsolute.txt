@@ -1,0 +1,12 @@
+C:\Users\jtrent238\AppData\Local\Temporary Projects\CardGame1\bin\Debug\CardGame.exe.config
+C:\Users\jtrent238\AppData\Local\Temporary Projects\CardGame1\bin\Debug\CardGame.exe
+C:\Users\jtrent238\AppData\Local\Temporary Projects\CardGame1\bin\Debug\CardGame.pdb
+C:\Users\jtrent238\AppData\Local\Temporary Projects\CardGame1\bin\Debug\CardGame.xml
+C:\Users\jtrent238\AppData\Local\Temporary Projects\CardGame1\obj\Debug\CardGame.BlackJackForm.resources
+C:\Users\jtrent238\AppData\Local\Temporary Projects\CardGame1\obj\Debug\CardGame.Resources.resources
+C:\Users\jtrent238\AppData\Local\Temporary Projects\CardGame1\obj\Debug\CardGame.OptionsForm.resources
+C:\Users\jtrent238\AppData\Local\Temporary Projects\CardGame1\obj\Debug\CardGame.StartForm.resources
+C:\Users\jtrent238\AppData\Local\Temporary Projects\CardGame1\obj\Debug\CardGame1.vbproj.GenerateResource.Cache
+C:\Users\jtrent238\AppData\Local\Temporary Projects\CardGame1\obj\Debug\CardGame.exe
+C:\Users\jtrent238\AppData\Local\Temporary Projects\CardGame1\obj\Debug\CardGame.xml
+C:\Users\jtrent238\AppData\Local\Temporary Projects\CardGame1\obj\Debug\CardGame.pdb

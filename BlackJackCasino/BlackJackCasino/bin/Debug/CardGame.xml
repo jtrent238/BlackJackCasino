@@ -1,0 +1,337 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CardGame
+</name>
+</assembly>
+<members>
+<member name="M:CardGame.CardGameFramework.Deck.#ctor">
+	<summary>
+ One complete deck with every face value and suit
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CardGame.CardGameFramework.Deck.Draw">
+	<summary>
+ Draws one card and removes it from the deck
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CardGame.CardGameFramework.Deck.Shuffle">
+	<summary>
+ Shuffles the cards in the deck
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CardGame.CardGameFramework.Deck.SwapCard(System.Int32,System.Int32)">
+	<summary>
+ Swaps the placement of two cards
+ </summary>
+	<param name="index1"></param>
+	<param name="index2"></param>
+	<remarks></remarks>
+</member><member name="M:CardGame.BlackJackForm.#ctor">
+	<summary>
+ Main constructor for the BlackJackForm.  Initializes components, loads the card skin images, and sets up the new game
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CardGame.BlackJackForm.DealBtn_Click(System.Object,System.EventArgs)">
+	<summary>
+ Invoked when the deal button is clicked
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:CardGame.BlackJackForm.StandBtn_Click(System.Object,System.EventArgs)">
+	<summary>
+ Invoked when a player has finished their turn and clicked the stand button
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:CardGame.BlackJackForm.HitBtn_Click(System.Object,System.EventArgs)">
+	<summary>
+ Invoked when the hit button is clicked
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:CardGame.BlackJackForm.DblDwnBtn_Click(System.Object,System.EventArgs)">
+	<summary>
+ Invoked when the double down button is clicked
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:CardGame.BlackJackForm.ExitBtn_Click(System.Object,System.EventArgs)">
+	<summary>
+ Exits the game
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:CardGame.BlackJackForm.TenBtn_Click(System.Object,System.EventArgs)">
+	<summary>
+ Place a bet for 10 dollars
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:CardGame.BlackJackForm.TwentyFiveBtn_Click(System.Object,System.EventArgs)">
+	<summary>
+ Place a bet for 25 dollars
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:CardGame.BlackJackForm.FiftyBtn_Click(System.Object,System.EventArgs)">
+	<summary>
+ Place a bet for 50 dollars
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:CardGame.BlackJackForm.HundredBtn_Click(System.Object,System.EventArgs)">
+	<summary>
+ Place a bet for 100 dollars
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:CardGame.BlackJackForm.ClearBetBtn_Click(System.Object,System.EventArgs)">
+	<summary>
+ Clear the bet
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:CardGame.BlackJackForm.Bet(System.Int32)">
+	<summary>
+ This method updates the current bet by a specified bet amount
+ </summary>
+	<param name="betValue"></param>
+	<remarks></remarks>
+</member><member name="M:CardGame.BlackJackForm.ShowBankValue">
+	<summary>
+ Sets the "My Account" value in the UI
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CardGame.BlackJackForm.ClearTable">
+	<summary>
+ Clear the dealer and player cards
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CardGame.BlackJackForm.GetGameResult">
+	<summary>
+ Get the game result.  This returns an EndResult value
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CardGame.BlackJackForm.EndGame(CardGame.EndResult)">
+	<summary>
+ Takes an EndResult value and shows the resulting game ending in the UI
+ </summary>
+	<param name="endState"></param>
+	<remarks></remarks>
+</member><member name="M:CardGame.BlackJackForm.LoadCardSkinImages">
+	<summary>
+ Load the Deck Card Images
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CardGame.BlackJackForm.SetUpGameInPlay">
+	<summary>
+ Set up the UI for when the game is in play after the player has hit deal game
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CardGame.BlackJackForm.SetUpNewGame">
+	<summary>
+ Set up the UI for a new game
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CardGame.BlackJackForm.UpdateUIPlayerCards">
+	<summary>
+ Refresh the UI to update the player cards
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CardGame.BlackJackForm.LoadCard(System.Windows.Forms.PictureBox,CardGame.CardGameFramework.Card)">
+	<summary>
+ Takes the card value and loads the corresponding card image from file
+ </summary>
+	<param name="pb"></param>
+	<param name="c"></param>
+	<remarks></remarks>
+</member><member name="M:CardGame.OptionsForm.OptionsForm_Load(System.Object,System.EventArgs)">
+	<summary>
+ Performs setup actions when the form loads
+ </summary>
+</member><member name="M:CardGame.OptionsForm.PlayerDefaultImageList_ItemActivate(System.Object,System.EventArgs)">
+	<summary>
+ Invoked when a user selects an image in the scroll list
+ </summary>
+</member><member name="M:CardGame.OptionsForm.btnCancel_Click(System.Object,System.EventArgs)">
+	<summary>
+ Cancels any changes made in the option form
+ </summary>
+</member><member name="M:CardGame.OptionsForm.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+ Saves current changes made in the options form
+ </summary>
+</member><member name="M:CardGame.BlackJackGame.#ctor(System.Int32)">
+	<summary>
+ Main Constructor for BlackJack Game
+ </summary>
+	<param name="initBalance"></param>
+	<remarks></remarks>
+</member><member name="M:CardGame.BlackJackGame.DealNewGame">
+	<summary>
+ Deals a new game.
+ </summary>
+	<remarks>This is invoked through the Deal button in BlackJackForm.vb</remarks>
+</member><member name="M:CardGame.BlackJackGame.DealerPlay">
+	<summary>
+ This method finishes playing the dealer's hand
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CardGame.BlackJackGame.PlayerLose">
+	<summary>
+ Updates the player's record with a loss
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CardGame.BlackJackGame.PlayerWin">
+	<summary>
+ Updates the player's record with a win
+ </summary>
+	<remarks></remarks>
+</member><member name="P:CardGame.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:CardGame.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:CardGame.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:CardGame.CardGameFramework.Suit">
+	<summary>
+ Card suit values
+ </summary>
+</member><member name="T:CardGame.CardGameFramework.FaceValue">
+	<summary>
+ Card face values
+ </summary>
+</member><member name="M:CardGame.CardGameFramework.Card.#ctor(CardGame.CardGameFramework.Suit,CardGame.CardGameFramework.FaceValue,System.Boolean)">
+	<summary>
+ Constructor for a new card. 
+ </summary>
+	<param name="suitProp"></param>
+	<param name="faceValProp"></param>
+	<param name="isCardUpProp"></param>
+	<remarks>Assign the card a suit, face value, and if the card is facing up or down</remarks>
+</member><member name="M:CardGame.CardGameFramework.Card.ToString">
+	<summary>
+ Return the card as a string (i.e. "The Ace of Spades")
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CardGame.CardGameFramework.Hand.ContainsCard(CardGame.CardGameFramework.FaceValue)">
+	<summary>
+ Checks to see if the hand contains a card of a certain face value
+ </summary>
+	<param name="item"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CardGame.CardGameFramework.BlackJackHand.CompareFaceValue(System.Object)">
+	<summary>
+ This method compares two BlackJack hands
+ </summary>
+	<param name="otherHand"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CardGame.CardGameFramework.BlackJackHand.GetSumOfHand">
+	<summary>
+ Gets the total value of a hand from BlackJack values
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:CardGame.CardGameFramework.BlackJackHand">
+	<summary>
+ This class is game-specific.  Creates a BlackJack hand that inherits from class hand
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CardGame.StartForm.NewGameBtn_Click(System.Object,System.EventArgs)">
+	<summary>
+ Invokes a new BlackJack game
+ </summary>
+</member><member name="M:CardGame.StartForm.OptionsBtn_Click(System.Object,System.EventArgs)">
+	<summary>
+ Brings up the options form
+ </summary>
+</member><member name="M:CardGame.StartForm.ExitBtn_Click(System.Object,System.EventArgs)">
+	<summary>
+ Exits the application
+ </summary>
+</member><member name="T:CardGame.EndResult">
+	<summary>
+ EndResult maintains the game result state
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CardGame.Player.#ctor">
+	<summary>
+ Creates a player with a default balance account 
+ </summary>
+	<remarks>It doesn't matter what the dealer's balance is</remarks>
+</member><member name="M:CardGame.Player.#ctor(System.Int32)">
+	<summary>
+ Creates a player with a new hand and new balance
+ </summary>
+	<param name="newBalance"></param>
+	<remarks></remarks>
+</member><member name="M:CardGame.Player.IncreaseBet(System.Decimal)">
+	<summary>
+ Increases the bet amount before the start of each game
+ </summary>
+	<param name="amt"></param>
+	<remarks>Invoked through the betting coins in the BlackJackForm.vb UI</remarks>
+</member><member name="M:CardGame.Player.PlaceBet">
+	<summary>
+ Places the bet and subtracts the amount from "My Account"
+ </summary>
+</member><member name="M:CardGame.Player.NewHand">
+	<summary>
+ Creates a new hand for the current player
+ </summary>
+	<returns>BlackJackHand</returns>
+	<remarks></remarks>
+</member><member name="M:CardGame.Player.ClearBet">
+	<summary>
+ Set the bet value back to 0
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CardGame.Player.HasBlackJack">
+	<summary>
+ Check if the current player has BlackJack
+ </summary>
+	<returns>Returns True if the current player has BlackJack</returns>
+	<remarks></remarks>
+</member><member name="M:CardGame.Player.HasBust">
+	<summary>
+ Check if the current player has bust
+ </summary>
+	<returns>Returns True if the current player has bust</returns>
+	<remarks></remarks>
+</member><member name="M:CardGame.Player.Hit">
+	<summary>
+ Player has hit
+ </summary>
+	<remarks>Draws a card from the deck and adds it to the player's hand</remarks>
+</member><member name="M:CardGame.Player.DoubleDown">
+	<summary>
+ Player has chosen to double down  
+ </summary>
+	<remarks>Double the player's bet and hit once</remarks>
+</member>
+</members>
+</doc>
