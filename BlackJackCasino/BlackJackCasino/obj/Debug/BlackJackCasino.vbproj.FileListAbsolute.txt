@@ -1,1 +1,12 @@
 C:\Users\jtrent238\Documents\GitHub\BlackJackCasino\BlackJackCasino\BlackJackCasino\bin\Debug\BlackJackCasino.exe.config
+C:\Users\jtrent238\Documents\GitHub\BlackJackCasino\BlackJackCasino\BlackJackCasino\bin\Debug\BlackJackCasino.exe
+C:\Users\jtrent238\Documents\GitHub\BlackJackCasino\BlackJackCasino\BlackJackCasino\bin\Debug\BlackJackCasino.pdb
+C:\Users\jtrent238\Documents\GitHub\BlackJackCasino\BlackJackCasino\BlackJackCasino\bin\Debug\BlackJackCasino.xml
+C:\Users\jtrent238\Documents\GitHub\BlackJackCasino\BlackJackCasino\BlackJackCasino\obj\Debug\CardGame.BlackJackForm.resources
+C:\Users\jtrent238\Documents\GitHub\BlackJackCasino\BlackJackCasino\BlackJackCasino\obj\Debug\CardGame.Resources.resources
+C:\Users\jtrent238\Documents\GitHub\BlackJackCasino\BlackJackCasino\BlackJackCasino\obj\Debug\CardGame.OptionsForm.resources
+C:\Users\jtrent238\Documents\GitHub\BlackJackCasino\BlackJackCasino\BlackJackCasino\obj\Debug\CardGame.StartForm.resources
+C:\Users\jtrent238\Documents\GitHub\BlackJackCasino\BlackJackCasino\BlackJackCasino\obj\Debug\BlackJackCasino.vbproj.GenerateResource.Cache
+C:\Users\jtrent238\Documents\GitHub\BlackJackCasino\BlackJackCasino\BlackJackCasino\obj\Debug\BlackJackCasino.exe
+C:\Users\jtrent238\Documents\GitHub\BlackJackCasino\BlackJackCasino\BlackJackCasino\obj\Debug\BlackJackCasino.xml
+C:\Users\jtrent238\Documents\GitHub\BlackJackCasino\BlackJackCasino\BlackJackCasino\obj\Debug\BlackJackCasino.pdb

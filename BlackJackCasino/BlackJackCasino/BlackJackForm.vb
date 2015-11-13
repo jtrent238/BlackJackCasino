@@ -474,5 +474,8 @@ Public Class BlackJackForm
     End Sub
 #End Region
 
+    Private Sub myAccountTextBox_TextChanged(sender As System.Object, e As System.EventArgs) Handles myAccountTextBox.TextChanged
+
+    End Sub
 End Class
 

@@ -18,48 +18,48 @@ Partial Public Class BlackJackForm
     <Global.System.Diagnostics.DebuggerNonUserCodeAttribute()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(BlackJackForm))
-        Me.lossesLabel = New System.Windows.Forms.Label
-        Me.tiesLabel = New System.Windows.Forms.Label
-        Me.playerCard6PictureBox = New System.Windows.Forms.PictureBox
-        Me.winsLabel = New System.Windows.Forms.Label
-        Me.betPanel = New System.Windows.Forms.Panel
-        Me.twentyFiveButton = New System.Windows.Forms.Button
-        Me.clearBetButton = New System.Windows.Forms.Button
-        Me.fiftyButton = New System.Windows.Forms.Button
-        Me.myBetTextBox = New System.Windows.Forms.TextBox
-        Me.myBetLabel = New System.Windows.Forms.Label
-        Me.hundredButton = New System.Windows.Forms.Button
-        Me.tenButton = New System.Windows.Forms.Button
-        Me.recordPanel = New System.Windows.Forms.Panel
-        Me.winTextBox = New System.Windows.Forms.TextBox
-        Me.tieTextBox = New System.Windows.Forms.TextBox
-        Me.lossTextBox = New System.Windows.Forms.TextBox
-        Me.myAccountLabel = New System.Windows.Forms.Label
-        Me.myAccountTextBox = New System.Windows.Forms.TextBox
-        Me.playerNameLabel = New System.Windows.Forms.Label
-        Me.endButton = New System.Windows.Forms.Button
-        Me.dealButton = New System.Windows.Forms.Button
-        Me.standButton = New System.Windows.Forms.Button
-        Me.hitButton = New System.Windows.Forms.Button
-        Me.doubleDownButton = New System.Windows.Forms.Button
-        Me.playerCard5PictureBox = New System.Windows.Forms.PictureBox
-        Me.photoPictureBox = New System.Windows.Forms.PictureBox
-        Me.framePictureBox = New System.Windows.Forms.PictureBox
-        Me.playerTotalLabel = New System.Windows.Forms.Label
-        Me.playerCard4PictureBox = New System.Windows.Forms.PictureBox
-        Me.playerCard3PictureBox = New System.Windows.Forms.PictureBox
-        Me.playerCard2PictureBox = New System.Windows.Forms.PictureBox
-        Me.playerCard1PictureBox = New System.Windows.Forms.PictureBox
-        Me.dealerCard6PictureBox = New System.Windows.Forms.PictureBox
-        Me.dealerCard5PictureBox = New System.Windows.Forms.PictureBox
-        Me.gameOverTextBox = New System.Windows.Forms.TextBox
-        Me.dealerCard4PictureBox = New System.Windows.Forms.PictureBox
-        Me.dealerCard3PictureBox = New System.Windows.Forms.PictureBox
-        Me.deckCard3PictureBox = New System.Windows.Forms.PictureBox
-        Me.deckCard2PictureBox = New System.Windows.Forms.PictureBox
-        Me.deckCard1PictureBox = New System.Windows.Forms.PictureBox
-        Me.dealerCard2PictureBox = New System.Windows.Forms.PictureBox
-        Me.dealerCard1PictureBox = New System.Windows.Forms.PictureBox
+        Me.lossesLabel = New System.Windows.Forms.Label()
+        Me.tiesLabel = New System.Windows.Forms.Label()
+        Me.playerCard6PictureBox = New System.Windows.Forms.PictureBox()
+        Me.winsLabel = New System.Windows.Forms.Label()
+        Me.betPanel = New System.Windows.Forms.Panel()
+        Me.twentyFiveButton = New System.Windows.Forms.Button()
+        Me.clearBetButton = New System.Windows.Forms.Button()
+        Me.fiftyButton = New System.Windows.Forms.Button()
+        Me.myBetTextBox = New System.Windows.Forms.TextBox()
+        Me.myBetLabel = New System.Windows.Forms.Label()
+        Me.hundredButton = New System.Windows.Forms.Button()
+        Me.tenButton = New System.Windows.Forms.Button()
+        Me.recordPanel = New System.Windows.Forms.Panel()
+        Me.winTextBox = New System.Windows.Forms.TextBox()
+        Me.tieTextBox = New System.Windows.Forms.TextBox()
+        Me.lossTextBox = New System.Windows.Forms.TextBox()
+        Me.myAccountLabel = New System.Windows.Forms.Label()
+        Me.myAccountTextBox = New System.Windows.Forms.TextBox()
+        Me.playerNameLabel = New System.Windows.Forms.Label()
+        Me.endButton = New System.Windows.Forms.Button()
+        Me.dealButton = New System.Windows.Forms.Button()
+        Me.standButton = New System.Windows.Forms.Button()
+        Me.hitButton = New System.Windows.Forms.Button()
+        Me.doubleDownButton = New System.Windows.Forms.Button()
+        Me.playerCard5PictureBox = New System.Windows.Forms.PictureBox()
+        Me.photoPictureBox = New System.Windows.Forms.PictureBox()
+        Me.framePictureBox = New System.Windows.Forms.PictureBox()
+        Me.playerTotalLabel = New System.Windows.Forms.Label()
+        Me.playerCard4PictureBox = New System.Windows.Forms.PictureBox()
+        Me.playerCard3PictureBox = New System.Windows.Forms.PictureBox()
+        Me.playerCard2PictureBox = New System.Windows.Forms.PictureBox()
+        Me.playerCard1PictureBox = New System.Windows.Forms.PictureBox()
+        Me.dealerCard6PictureBox = New System.Windows.Forms.PictureBox()
+        Me.dealerCard5PictureBox = New System.Windows.Forms.PictureBox()
+        Me.gameOverTextBox = New System.Windows.Forms.TextBox()
+        Me.dealerCard4PictureBox = New System.Windows.Forms.PictureBox()
+        Me.dealerCard3PictureBox = New System.Windows.Forms.PictureBox()
+        Me.deckCard3PictureBox = New System.Windows.Forms.PictureBox()
+        Me.deckCard2PictureBox = New System.Windows.Forms.PictureBox()
+        Me.deckCard1PictureBox = New System.Windows.Forms.PictureBox()
+        Me.dealerCard2PictureBox = New System.Windows.Forms.PictureBox()
+        Me.dealerCard1PictureBox = New System.Windows.Forms.PictureBox()
         CType(Me.playerCard6PictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.betPanel.SuspendLayout()
         Me.recordPanel.SuspendLayout()
@@ -88,7 +88,7 @@ Partial Public Class BlackJackForm
         Me.lossesLabel.ForeColor = System.Drawing.Color.Gold
         Me.lossesLabel.Location = New System.Drawing.Point(383, 5)
         Me.lossesLabel.Name = "lossesLabel"
-        Me.lossesLabel.Size = New System.Drawing.Size(62, 20)
+        Me.lossesLabel.Size = New System.Drawing.Size(66, 20)
         Me.lossesLabel.TabIndex = 2
         Me.lossesLabel.Text = "Losses"
         '
@@ -99,7 +99,7 @@ Partial Public Class BlackJackForm
         Me.tiesLabel.ForeColor = System.Drawing.Color.Gold
         Me.tiesLabel.Location = New System.Drawing.Point(502, 5)
         Me.tiesLabel.Name = "tiesLabel"
-        Me.tiesLabel.Size = New System.Drawing.Size(38, 20)
+        Me.tiesLabel.Size = New System.Drawing.Size(42, 20)
         Me.tiesLabel.TabIndex = 4
         Me.tiesLabel.Text = "Ties"
         '
@@ -122,14 +122,14 @@ Partial Public Class BlackJackForm
         Me.winsLabel.Location = New System.Drawing.Point(269, 5)
         Me.winsLabel.Margin = New System.Windows.Forms.Padding(3, 3, 3, 1)
         Me.winsLabel.Name = "winsLabel"
-        Me.winsLabel.Size = New System.Drawing.Size(44, 20)
+        Me.winsLabel.Size = New System.Drawing.Size(48, 20)
         Me.winsLabel.TabIndex = 1
         Me.winsLabel.Text = "Wins"
         '
         'betPanel
         '
         Me.betPanel.BackColor = System.Drawing.Color.Transparent
-        Me.betPanel.BackgroundImage = CardGame.My.Resources.Resources.BorderPlaceYourBetBottom
+        Me.betPanel.BackgroundImage = Global.CardGame.My.Resources.Resources.BorderPlaceYourBetBottom
         Me.betPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.betPanel.Controls.Add(Me.twentyFiveButton)
         Me.betPanel.Controls.Add(Me.clearBetButton)
@@ -146,7 +146,7 @@ Partial Public Class BlackJackForm
         'twentyFiveButton
         '
         Me.twentyFiveButton.BackColor = System.Drawing.Color.Transparent
-        Me.twentyFiveButton.BackgroundImage = CardGame.My.Resources.Resources.coin2
+        Me.twentyFiveButton.BackgroundImage = Global.CardGame.My.Resources.Resources.coin2
         Me.twentyFiveButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.twentyFiveButton.FlatAppearance.BorderSize = 0
         Me.twentyFiveButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
@@ -165,7 +165,7 @@ Partial Public Class BlackJackForm
         'clearBetButton
         '
         Me.clearBetButton.BackColor = System.Drawing.Color.Transparent
-        Me.clearBetButton.BackgroundImage = CardGame.My.Resources.Resources.ButtonSquare
+        Me.clearBetButton.BackgroundImage = Global.CardGame.My.Resources.Resources.ButtonSquare
         Me.clearBetButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.clearBetButton.FlatAppearance.BorderSize = 0
         Me.clearBetButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
@@ -182,7 +182,7 @@ Partial Public Class BlackJackForm
         'fiftyButton
         '
         Me.fiftyButton.BackColor = System.Drawing.Color.Transparent
-        Me.fiftyButton.BackgroundImage = CardGame.My.Resources.Resources.coin3
+        Me.fiftyButton.BackgroundImage = Global.CardGame.My.Resources.Resources.coin3
         Me.fiftyButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.fiftyButton.FlatAppearance.BorderSize = 0
         Me.fiftyButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
@@ -199,7 +199,6 @@ Partial Public Class BlackJackForm
         '
         'myBetTextBox
         '
-        Me.myBetTextBox.AutoSize = False
         Me.myBetTextBox.BackColor = System.Drawing.SystemColors.InfoText
         Me.myBetTextBox.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.myBetTextBox.ForeColor = System.Drawing.Color.Orange
@@ -220,14 +219,14 @@ Partial Public Class BlackJackForm
         Me.myBetLabel.ForeColor = System.Drawing.Color.Gold
         Me.myBetLabel.Location = New System.Drawing.Point(355, 29)
         Me.myBetLabel.Name = "myBetLabel"
-        Me.myBetLabel.Size = New System.Drawing.Size(60, 20)
+        Me.myBetLabel.Size = New System.Drawing.Size(64, 20)
         Me.myBetLabel.TabIndex = 7
         Me.myBetLabel.Text = "My Bet"
         '
         'hundredButton
         '
         Me.hundredButton.BackColor = System.Drawing.Color.Transparent
-        Me.hundredButton.BackgroundImage = CardGame.My.Resources.Resources.coin4
+        Me.hundredButton.BackgroundImage = Global.CardGame.My.Resources.Resources.coin4
         Me.hundredButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.hundredButton.FlatAppearance.BorderSize = 0
         Me.hundredButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
@@ -246,7 +245,7 @@ Partial Public Class BlackJackForm
         'tenButton
         '
         Me.tenButton.BackColor = System.Drawing.Color.Transparent
-        Me.tenButton.BackgroundImage = CardGame.My.Resources.Resources.coin1
+        Me.tenButton.BackgroundImage = Global.CardGame.My.Resources.Resources.coin1
         Me.tenButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.tenButton.FlatAppearance.BorderSize = 0
         Me.tenButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
@@ -266,7 +265,7 @@ Partial Public Class BlackJackForm
         'recordPanel
         '
         Me.recordPanel.BackColor = System.Drawing.Color.Transparent
-        Me.recordPanel.BackgroundImage = CardGame.My.Resources.Resources.BorderPlaceYourBetTop
+        Me.recordPanel.BackgroundImage = Global.CardGame.My.Resources.Resources.BorderPlaceYourBetTop
         Me.recordPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.recordPanel.Controls.Add(Me.lossesLabel)
         Me.recordPanel.Controls.Add(Me.tiesLabel)
@@ -283,7 +282,6 @@ Partial Public Class BlackJackForm
         '
         'winTextBox
         '
-        Me.winTextBox.AutoSize = False
         Me.winTextBox.BackColor = System.Drawing.SystemColors.InfoText
         Me.winTextBox.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.winTextBox.ForeColor = System.Drawing.Color.DarkOrange
@@ -299,7 +297,6 @@ Partial Public Class BlackJackForm
         '
         'tieTextBox
         '
-        Me.tieTextBox.AutoSize = False
         Me.tieTextBox.BackColor = System.Drawing.SystemColors.InfoText
         Me.tieTextBox.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tieTextBox.ForeColor = System.Drawing.Color.DarkOrange
@@ -314,7 +311,6 @@ Partial Public Class BlackJackForm
         '
         'lossTextBox
         '
-        Me.lossTextBox.AutoSize = False
         Me.lossTextBox.BackColor = System.Drawing.SystemColors.InfoText
         Me.lossTextBox.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lossTextBox.ForeColor = System.Drawing.Color.DarkOrange
@@ -336,13 +332,12 @@ Partial Public Class BlackJackForm
         Me.myAccountLabel.Location = New System.Drawing.Point(105, 6)
         Me.myAccountLabel.Margin = New System.Windows.Forms.Padding(3, 3, 3, 1)
         Me.myAccountLabel.Name = "myAccountLabel"
-        Me.myAccountLabel.Size = New System.Drawing.Size(98, 20)
+        Me.myAccountLabel.Size = New System.Drawing.Size(102, 20)
         Me.myAccountLabel.TabIndex = 6
         Me.myAccountLabel.Text = "My Account"
         '
         'myAccountTextBox
         '
-        Me.myAccountTextBox.AutoSize = False
         Me.myAccountTextBox.BackColor = System.Drawing.SystemColors.InfoText
         Me.myAccountTextBox.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.myAccountTextBox.ForeColor = System.Drawing.Color.Orange
@@ -353,7 +348,7 @@ Partial Public Class BlackJackForm
         Me.myAccountTextBox.ReadOnly = True
         Me.myAccountTextBox.Size = New System.Drawing.Size(82, 28)
         Me.myAccountTextBox.TabIndex = 1
-        Me.myAccountTextBox.Text = "2000"
+        Me.myAccountTextBox.Text = "99999999999999"
         Me.myAccountTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'playerNameLabel
@@ -371,7 +366,7 @@ Partial Public Class BlackJackForm
         '
         Me.endButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.endButton.BackColor = System.Drawing.Color.Transparent
-        Me.endButton.BackgroundImage = CardGame.My.Resources.Resources.ButtonRound
+        Me.endButton.BackgroundImage = Global.CardGame.My.Resources.Resources.ButtonRound
         Me.endButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.endButton.FlatAppearance.BorderSize = 0
         Me.endButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
@@ -389,7 +384,7 @@ Partial Public Class BlackJackForm
         '
         Me.dealButton.AutoSize = True
         Me.dealButton.BackColor = System.Drawing.Color.Transparent
-        Me.dealButton.BackgroundImage = CardGame.My.Resources.Resources.ButtonRound
+        Me.dealButton.BackgroundImage = Global.CardGame.My.Resources.Resources.ButtonRound
         Me.dealButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.dealButton.FlatAppearance.BorderSize = 0
         Me.dealButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
@@ -407,7 +402,7 @@ Partial Public Class BlackJackForm
         'standButton
         '
         Me.standButton.BackColor = System.Drawing.Color.Transparent
-        Me.standButton.BackgroundImage = CardGame.My.Resources.Resources.ButtonRound
+        Me.standButton.BackgroundImage = Global.CardGame.My.Resources.Resources.ButtonRound
         Me.standButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.standButton.FlatAppearance.BorderSize = 0
         Me.standButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
@@ -425,7 +420,7 @@ Partial Public Class BlackJackForm
         'hitButton
         '
         Me.hitButton.BackColor = System.Drawing.Color.Transparent
-        Me.hitButton.BackgroundImage = CardGame.My.Resources.Resources.ButtonRound
+        Me.hitButton.BackgroundImage = Global.CardGame.My.Resources.Resources.ButtonRound
         Me.hitButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.hitButton.FlatAppearance.BorderSize = 0
         Me.hitButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
@@ -444,7 +439,7 @@ Partial Public Class BlackJackForm
         'doubleDownButton
         '
         Me.doubleDownButton.BackColor = System.Drawing.Color.Transparent
-        Me.doubleDownButton.BackgroundImage = CardGame.My.Resources.Resources.ButtonRound
+        Me.doubleDownButton.BackgroundImage = Global.CardGame.My.Resources.Resources.ButtonRound
         Me.doubleDownButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.doubleDownButton.FlatAppearance.BorderSize = 0
         Me.doubleDownButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
@@ -487,7 +482,7 @@ Partial Public Class BlackJackForm
         'framePictureBox
         '
         Me.framePictureBox.BackColor = System.Drawing.Color.Transparent
-        Me.framePictureBox.BackgroundImage = CardGame.My.Resources.Resources.FrameOrange
+        Me.framePictureBox.BackgroundImage = Global.CardGame.My.Resources.Resources.FrameOrange
         Me.framePictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.framePictureBox.Location = New System.Drawing.Point(281, 392)
         Me.framePictureBox.Name = "framePictureBox"
@@ -501,7 +496,7 @@ Partial Public Class BlackJackForm
         Me.playerTotalLabel.AutoSize = True
         Me.playerTotalLabel.Location = New System.Drawing.Point(239, 244)
         Me.playerTotalLabel.Name = "playerTotalLabel"
-        Me.playerTotalLabel.Size = New System.Drawing.Size(9, 13)
+        Me.playerTotalLabel.Size = New System.Drawing.Size(13, 13)
         Me.playerTotalLabel.TabIndex = 6
         Me.playerTotalLabel.Text = "0"
         '
@@ -574,7 +569,6 @@ Partial Public Class BlackJackForm
         '
         'gameOverTextBox
         '
-        Me.gameOverTextBox.AutoSize = False
         Me.gameOverTextBox.BackColor = System.Drawing.Color.Black
         Me.gameOverTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.gameOverTextBox.ForeColor = System.Drawing.Color.White
@@ -668,7 +662,7 @@ Partial Public Class BlackJackForm
         'BlackJackForm
         '
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.BackgroundImage = CardGame.My.Resources.Resources.Background
+        Me.BackgroundImage = Global.CardGame.My.Resources.Resources.Background
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(734, 706)
         Me.Controls.Add(Me.playerTotalLabel)
